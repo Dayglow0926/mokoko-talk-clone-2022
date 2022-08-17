@@ -12,11 +12,13 @@
 }
 .status-bar__column:nth-child(2) {
   justify-content: center;
+  font-weight: 700;
 }
 .status-bar__column:last-child {
   justify-content: flex-end;
   align-items: center;
 }
-.status-bar__column .fa-battery-quarter {
+.status-bar__column .fa-battery-quarter,
+.status-bar__column .fa-lock {
   margin: 4px;
 }
