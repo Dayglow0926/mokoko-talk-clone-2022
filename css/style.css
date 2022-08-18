@@ -10,6 +10,9 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+
+  /* status-bar fixed 위치의 세로 길이 만큼 padding */
+  padding-top: 5px;
   /*특정 화면 크기에서 input 입력시 스크롤 점멸현상 제어를 위한 코드 */
   overflow-y: scroll;
 }
