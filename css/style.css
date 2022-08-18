@@ -4,6 +4,7 @@
 
 /*Screens*/
 @import url("screens/login.css");
+@import url("screens/friends.css");
 
 /* Components */
 @import url("components/status-bar.css");
