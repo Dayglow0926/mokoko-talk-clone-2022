@@ -11,6 +11,9 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 /*프로필 기본 사이즈*/
@@ -51,4 +54,12 @@
   font-size: 15px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__time {
+  display: block;
+  padding: 6px 3px 10px 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
