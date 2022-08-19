@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   padding-bottom: 18px;
+  padding-left: 23px;
 }
 
 .screen-header__icon span {
