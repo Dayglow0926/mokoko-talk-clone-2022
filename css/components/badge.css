@@ -10,3 +10,8 @@
   font-weight: 700;
   color: white;
 }
+
+.badge:empty {
+  width: 5px;
+  height: 5px;
+}

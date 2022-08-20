@@ -27,8 +27,6 @@
 }
 
 .nav__notification:empty {
-  width: 5px;
-  height: 5px;
   left: 23px;
   bottom: 18px;
 }
