@@ -9,6 +9,7 @@
 @import url("components/screen-header.css");
 @import url("components/user-component.css");
 @import url("components/alt-screen-header.css");
+@import url("components/animation.css");
 
 /*Screens*/
 @import url("screens/login.css");
@@ -16,6 +17,7 @@
 @import url("screens/find.css");
 @import url("screens/more.css");
 @import url("screens/setting.css");
+@import url("screens/chatting.css");
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -30,6 +32,7 @@ body {
 
 .main-screen {
   padding: 9px 21px;
+  padding-top: 0px;
 }
 
 ::-webkit-scrollbar {
