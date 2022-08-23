@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mokoko Talk</title>
+  </head>
+  <body class="chatting-screen">
+    <div class="status-bar">
+      <!-- 폰으로 접속시 사라지는 것도 고려 -->
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>15:49</span>
+        <!-- JS를 배우고나서 리얼 타임으로 변경도 고려 -->
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-lock fa-xs"></i>
+        <span>10%</span>
+        <i class="fa-solid fa-battery-quarter fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-xs"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chatting-screen__header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__column-title">Mokoko</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </div>
+    </header>
+
+    <main class="message-screen">
+      <div class="message-screen__date">
+        <span>Tuesday, June 30, 2020</span>
+      </div>
+      <div class="message-screen__other">
+        <img src="clone-page-screenshot/mokoko-user-profile2.png" />
+        <div class="message-info">
+          <span class="message-info__name">MokokoNut</span>
+          <div class="message-info__content">
+            <div class="message-info__content-bubble">Hi!</div>
+            <span class="message-info__content-time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-screen__user">
+        <div class="message-info">
+          <div class="message-info__content">
+            <div class="message-info__content-bubble">
+              한국 역사는 만주와 한반도 지역에서 시작됐다. 이 지역에 사람이 살기
+              시작한 시기는 70만 년 전으로 거슬러 올라간다. 동물의 뼈나 뿔로
+              만든 도구와 뗀석기를 사용했던 구석기 시대인의 대표 유적으로는
+              평안남도 상원 검은모루 동굴, 경기도 연천 전곡리, 충청남도 공주
+              석장리, 충청북도 청주 두루봉 동굴 등이 있다. 이들은 무리를 지어
+              사냥감을 찾아다니거나 채집하며 생활했다.
+            </div>
+            <span class="message-info__content-time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-input">
+      <div class="input-screen">
+        <i class="fa-solid fa-square-plus fa-2x"></i>
+        <div class="input-screen__content">
+          <input type="text"></input>
+          <i class="fa-solid fa-face-grin-beam fa-xl"></i>
+          <button type="submit">
+            <i class="fa-solid fa-arrow-up fa-2x"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/a4852596ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
