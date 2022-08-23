@@ -8,19 +8,21 @@
 @import url("components/nav-bar.css");
 @import url("components/screen-header.css");
 @import url("components/user-component.css");
+@import url("components/alt-screen-header.css");
 
 /*Screens*/
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/setting.css");
 
 body {
   font-family: "Open Sans", sans-serif;
 
   /* status-bar fixed 위치의 세로 길이 만큼 padding */
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 67px;
   /*특정 화면 크기에서 input 입력시 스크롤 점멸현상 제어를 위한 코드 */
   -ms-overflow-style: none;
   color: #2e363e;
