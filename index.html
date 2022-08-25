@@ -45,5 +45,16 @@
       src="https://kit.fontawesome.com/a4852596ef.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function handleWindowOffline() {
+        alert("SOS no WIFI!");
+      }
+
+      function handleWindowOnline() {
+        alert("ALL GOOOD!");
+      }
+      window.addEventListener("offline", handleWindowOffline);
+      window.addEventListener("online", handleWindowOnline);
+    </script>
   </body>
 </html>
