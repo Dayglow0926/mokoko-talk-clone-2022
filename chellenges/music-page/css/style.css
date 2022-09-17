@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import "reset.css";
+@import "components/header.css";
+@import "screens/main.css";
+@import "screens/footer.css";
+@import "screens/music-main.css";
+
+:root {
+  --music-play-value: 60%;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: scroll;
+  overflow: auto;
+  -ms-overflow-style: none;
+  white-space: nowrap;
+}
+body {
+  width: 900px;
+  margin: auto auto;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  width: 305px;
+  height: 683px;
+  background-color: white;
+  margin: 25px 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+
+  padding: 45px 20px;
+}
+
+i.fa-solid.fa-forward.left {
+  transform: rotate(180deg);
+}
