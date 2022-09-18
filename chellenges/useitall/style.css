@@ -1,0 +1,40 @@
+@import "reset.css";
+
+body {
+  background-color: tomato;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  border: 3px solid black;
+  width: 40vw;
+  height: 40vw;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-square {
+  background-color: darkcyan;
+}
+
+.square-small {
+  width: 20%;
+  height: 20%;
+  border: 3.5px solid white;
+  margin: 10% 0px;
+}
+
+.square-middle {
+  width: 80%;
+  height: 20%;
+  border: 3.5px dashed white;
+}
