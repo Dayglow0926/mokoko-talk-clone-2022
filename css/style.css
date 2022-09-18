@@ -38,3 +38,40 @@ body {
 ::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera*/
 }
+
+.no-mobile {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.no-mobile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.no-mobile p {
+  margin: 50px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 700px) {
+  .no-mobile {
+    display: flex;
+  }
+  .status-bar {
+    display: none;
+  }
+}
