@@ -99,7 +99,7 @@ body {
   .no-mobile {
     display: flex;
   }
-  .status-bar {
+  body *:not(.no-mobile):not(.no-mobile *) {
     display: none;
   }
 }
