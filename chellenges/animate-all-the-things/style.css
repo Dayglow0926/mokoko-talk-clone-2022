@@ -1,0 +1,94 @@
+@import "reset.css";
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.animation-view {
+  width: 60vw;
+  height: 60vw;
+  background-color: #6bbcbe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-view div {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.animation-view__circle {
+  animation: circle_animation 1s ease-in-out infinite;
+}
+
+.animation-view__circle div {
+  background-color: white;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.animation-view__rhythm div {
+  background-color: white;
+  border: 7px solid white;
+  height: 45px;
+  width: 0px;
+  margin: 5px;
+}
+
+.animation-view__rhythm div:first-child {
+  animation: rhythm_animation 1s ease-in-out infinite;
+}
+.animation-view__rhythm div:nth-child(2) {
+  animation: rhythm_animation 1s ease-in-out infinite;
+  animation-delay: 0.05s;
+}
+.animation-view__rhythm div:nth-child(3) {
+  animation: rhythm_animation 1s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+.animation-view__rhythm div:nth-child(4) {
+  animation: rhythm_animation 1s ease-in-out infinite;
+  animation-delay: 0.15s;
+}
+.animation-view__rhythm div:last-child {
+  animation: rhythm_animation 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+@keyframes circle_animation {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rhythm_animation {
+  0% {
+  }
+  25% {
+    transform: scale(1, 2);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
