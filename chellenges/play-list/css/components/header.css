@@ -1,0 +1,12 @@
+.play-content__header {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-content__header-name {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+}
