@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+
+    <form action="">
+      <label for="first-name">
+        First name
+        <input id="first-name" type="text" placeholder="First name" required />
+      </label>
+
+      <label for="last-name">
+        Last name
+        <input id="last-name" type="text" placeholder="Last name" required />
+      </label>
+
+      <label for="email">
+        Email
+        <input id="email" type="email" placeholder="Email" required />
+      </label>
+
+      <label for="username">
+        Username
+        <input id="username" type="text" placeholder="Username" required />
+      </label>
+
+      <label for="password">
+        Password
+        <input
+          id="password"
+          type="password"
+          placeholder="Password"
+          minlength="10"
+          required
+        />
+      </label>
+
+      <label for="date">
+        Birth date
+        <input id="date" type="date" required />
+      </label>
+
+      <label for="happy-point">
+        How happy are you?
+        <input id="happy-point" type="range" list="tickmarks" required />
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </label>
+      <label for="fav-color">
+        What is your fav.color?
+        <input id="fav-color" type="color" required />
+      </label>
+
+      <button>Create Account</button>
+    </form>
+  </body>
+</html>
