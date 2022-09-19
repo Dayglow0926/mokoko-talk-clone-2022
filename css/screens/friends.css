@@ -13,13 +13,14 @@
   margin-right: 2px;
 }
 
-.friend-screen__channel {
+.main-screen__channel,
+.main-screen__friends {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 17px;
   padding-top: 13px;
 }
 
-.friend-screen__channel-header {
+.main-screen__category {
   margin-bottom: 15px;
   font-size: 14px;
   font-weight: 600;
@@ -29,6 +30,6 @@
   align-items: center;
 }
 
-.friend-screen__channel-header i {
+.main-screen__category i {
   color: rgba(0, 0, 0, 0.3);
 }

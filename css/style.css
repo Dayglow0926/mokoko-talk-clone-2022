@@ -99,7 +99,7 @@ body {
   .no-mobile {
     display: flex;
   }
-  body *:not(.no-mobile):not(.no-mobile *) {
+  body *:not(.loading):not(.no-mobile):not(.no-mobile *) {
     display: none;
   }
 }
