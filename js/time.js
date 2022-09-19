@@ -12,3 +12,6 @@ function nowTime() {
 
 nowTime();
 setInterval(nowTime, 1000);
+
+const mokoko_name = document.querySelector(".user-component__title.main");
+mokoko_name.innerHTML = localStorage.getItem("mokoko-name");
