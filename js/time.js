@@ -14,4 +14,6 @@ nowTime();
 setInterval(nowTime, 1000);
 
 const mokoko_name = document.querySelector(".user-component__title.main");
-mokoko_name.innerHTML = localStorage.getItem("mokoko-name");
+if (mokoko_name != null) {
+  mokoko_name.innerHTML = localStorage.getItem("mokoko-name");
+}
