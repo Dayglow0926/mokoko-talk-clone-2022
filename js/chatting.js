@@ -62,7 +62,9 @@ const saveMessageList = localStorage.getItem(MESSAGE_KEY);
 
 if (saveMessageList != null) {
   message_list = JSON.parse(saveMessageList);
-  message_list.forEach(messageSend);
+  setTimeout(() => {
+    message_list.forEach(messageSend);
+  }, 1);
 }
 
 chat_form.addEventListener("submit", send);
