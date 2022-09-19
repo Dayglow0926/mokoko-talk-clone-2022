@@ -53,9 +53,10 @@
 
 #login-form input {
   border: none;
-  padding: 3% 0%;
+  padding: 3% 5%;
   font-size: 18px;
   margin-bottom: 25px;
+  border-radius: 10px;
 }
 
 #login-form input:not([type="submit"]) {
@@ -75,8 +76,6 @@
   background-color: var(--mokoko-green);
   cursor: pointer;
   font-size: 18px;
-  padding: 5% 0%;
-  border-radius: 5px;
 }
 
 #login-form a {
