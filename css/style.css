@@ -41,6 +41,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  -webkit-overflow-scrolling: touch;
 }
 
 .main-screen {
