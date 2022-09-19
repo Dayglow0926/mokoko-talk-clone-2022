@@ -20,15 +20,27 @@
 @import url("screens/chatting.css");
 @import url("screens/chats.css");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 
   /* status-bar fixed 위치의 세로 길이 만큼 padding */
-  padding-top: 30px;
+  padding-top: 103px;
   padding-bottom: 67px;
   /*특정 화면 크기에서 input 입력시 스크롤 점멸현상 제어를 위한 코드 */
   -ms-overflow-style: none;
   color: #2e363e;
+
+  background-color: rgb(190, 230, 202);
+
+  background-image: url("../clone-page-screenshot/background-mokoko.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .main-screen {
@@ -76,7 +88,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;

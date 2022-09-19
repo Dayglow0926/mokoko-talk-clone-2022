@@ -5,6 +5,12 @@
   padding: var(--horizontal-space);
   padding-bottom: 18px;
   padding-left: 23px;
+
+  width: 100vw;
+  position: fixed;
+  top: 26px;
+  background-color: rgb(190, 230, 202);
+  z-index: 9;
 }
 
 .screen-header__icon span {

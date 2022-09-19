@@ -1,10 +1,10 @@
 .chatting-screen {
-  background-color: #abc1d1;
+  background-color: rgb(190, 230, 202);
   padding-top: 92px;
 }
 
 .chatting-screen__header {
-  background-color: #abc1d1;
+  background-color: rgb(190, 230, 202);
   position: fixed;
   box-sizing: border-box;
   width: 100vw;
@@ -136,8 +136,8 @@
 }
 
 .input-screen__content > button {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   border: none;
   background-color: var(--mokoko-green);
@@ -145,5 +145,9 @@
 }
 
 .input-screen__content > i {
-  right: 50px;
+  right: 40px;
+}
+
+.input-screen__content > button:hover {
+  cursor: pointer;
 }
