@@ -15,3 +15,7 @@
   width: 5px;
   height: 5px;
 }
+
+.user-component__column .badge:empty {
+  display: none;
+}
