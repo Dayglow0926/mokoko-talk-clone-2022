@@ -8,68 +8,64 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Create An Account</h1>
-
-    <form action="">
-      <label for="first-name">
-        First name
-        <input id="first-name" type="text" placeholder="First name" required />
-      </label>
-
-      <label for="last-name">
-        Last name
-        <input id="last-name" type="text" placeholder="Last name" required />
-      </label>
-
-      <label for="email">
-        Email
-        <input id="email" type="email" placeholder="Email" required />
-      </label>
-
-      <label for="username">
-        Username
-        <input id="username" type="text" placeholder="Username" required />
-      </label>
-
-      <label for="password">
-        Password
-        <input
-          id="password"
-          type="password"
-          placeholder="Password"
-          minlength="10"
-          required
-        />
-      </label>
-
-      <label for="date">
-        Birth date
-        <input id="date" type="date" required />
-      </label>
-
-      <label for="happy-point">
-        How happy are you?
-        <input id="happy-point" type="range" list="tickmarks" required />
-        <datalist id="tickmarks">
-          <option value="0"></option>
-          <option value="10"></option>
-          <option value="20"></option>
-          <option value="30"></option>
-          <option value="40"></option>
-          <option value="50"></option>
-          <option value="60"></option>
-          <option value="70"></option>
-          <option value="80"></option>
-          <option value="90"></option>
-          <option value="100"></option>
-        </datalist>
-      </label>
-      <label for="fav-color">
-        What is your fav.color?
-        <input id="fav-color" type="color" required />
-      </label>
-
-      <button>Create Account</button>
-    </form>
+    <header>
+      <h1>Create An Account</h1>
+    </header>
+    <main>
+      <form action="">
+        <div>
+          <label for="firstName">First name</label>
+          <input id="firstName" type="text" placeholder="First name" required />
+        </div>
+        <div>
+          <label for="lastName">Last name</label>
+          <input id="lastName" type="text" placeholder="Last name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email" required />
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Username" required />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            minlength="10"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div>
+          <label for="date">Birth date</label>
+          <input id="date" type="date" required />
+        </div>
+        <div>
+          <label for="point">How happy are you?</label>
+          <input id="point" type="range" list="tickmarks" required />
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+          </datalist>
+        </div>
+        <div>
+          <label for="color">Whatis your fav.color</label>
+          <input id="color" type="color" required />
+        </div>
+        <button type="submit">Create Account</button>
+      </form>
+    </main>
   </body>
 </html>
