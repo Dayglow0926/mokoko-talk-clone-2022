@@ -1,62 +1,68 @@
+h1 {
+  text-align: center;
+}
 body {
   background-color: #f5f5f5;
+  width: 100vw;
   height: 100vh;
-}
 
-.heading {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.container {
   display: flex;
-  width: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-list {
+  display: flex;
+  width: 100%;
+
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.child {
+.color-list > div {
   display: flex;
-  height: 250px;
-  width: 180px;
-  border: 5px solid #fff;
-  display: flex;
-  gap: 20px;
   position: relative;
+  align-items: center;
+  width: 33%;
+  height: 350px;
+  margin: 20px;
+
+  border: 8px solid rgba(255, 255, 255, 1);
 }
 
-.color-name {
-  background-color: #fff;
+.color-list > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
   position: absolute;
-  top: 5px;
+  width: 100%;
+  height: 100px;
+
+  border: none;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  top: 5%;
+}
+
+.color-list div > span:first-child {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.color-code {
-  background-color: #fff;
-  position: absolute;
-  top: 70px;
-  font-size: 12px;
-  font-weight: bold;
+.color-list div > span:last-child {
+  font-weight: 600;
 }
 
-.container div:first-child {
+.color-list:nth-child(2) > div:first-child {
   background-color: tomato;
 }
-
-.container div:nth-child(2) {
+.color-list:nth-child(2) > div:last-child {
   background-color: teal;
 }
-
-.container div:nth-child(3) {
+.color-list:last-child > div:first-child {
   background-color: burlywood;
 }
-
-.container div:last-child {
+.color-list:last-child > div:last-child {
   background-color: thistle;
 }
