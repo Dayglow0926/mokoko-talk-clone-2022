@@ -9,12 +9,19 @@ body {
 }
 .wrapper {
   width: 500px;
+  margin: 10px 0px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 100px black;
 }
 
 header,
 main {
   padding: 0px 15px;
   box-sizing: border-box;
+}
+
+img {
+  -webkit-user-drag: none;
 }
 
 @media screen and (max-width: 500px) {

@@ -38,6 +38,7 @@
   flex-direction: column;
   flex-grow: 1;
   box-sizing: border-box;
+  margin: 10px 0px;
 }
 
 .library-content__delegate-book-info > span {
@@ -45,12 +46,12 @@
 }
 
 .library-content__delegate-book-info > span:first-child {
-  font-size: 25px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
 .library-content__delegate-book-info > span:nth-child(2) {
-  font-size: 18px;
+  font-size: 0.9rem;
   font-weight: 700;
 
   opacity: 0.5;
@@ -79,8 +80,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 15px;
-  font-size: 18px;
+  padding: 5%;
+  font-size: 1rem;
   font-weight: 600;
   background-color: rgba(0, 0, 0, 0.03);
   width: 35%;
@@ -110,10 +111,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 180px;
+  width: 60%;
   height: 100%;
   background-color: rgba(0, 0, 0, 1);
-  font-size: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: white;
   border-radius: 10px;
 }
@@ -172,7 +174,7 @@
 }
 .library-content__poular-authors-info div:last-child span:first-child {
   display: block;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.2;
 
@@ -181,7 +183,7 @@
 
 .library-content__poular-authors-info div:last-child span:last-child {
   display: block;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
 
   opacity: 0.4;
