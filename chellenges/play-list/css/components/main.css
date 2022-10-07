@@ -64,6 +64,8 @@
   border: 2px solid black;
   border-bottom-width: 5px;
   border-radius: 10px;
+
+  transition: all 0.05s ease;
 }
 
 .play-content__main-button-play i {
@@ -83,10 +85,18 @@
   border: 2px solid black;
   border-bottom-width: 5px;
   border-radius: 50%;
+
+  transition: all 0.05s ease;
+}
+
+.play-content__main-button > div:hover {
+  margin-top: 2px;
+  border-bottom-width: 2px;
 }
 
 .play-content__main-button div:nth-child(n + 2):not(:last-child) {
-  margin: 0px 27px;
+  margin-left: 27px;
+  margin-right: 27px;
 }
 
 .play-content__main-list {
